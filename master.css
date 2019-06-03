@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: blue;
+  height: 500px;
+}
+
+.container{
+  background-color: greenyellow;
+}
+
+section{
+  height: 300px;
+  border: solid 1px black;
+}
+
+.scuoledilingua{
+  background-color: gray;
+  height: 150px;
+}
+
+.colonne{
+  float: left;
+  width: calc(100%/3);
+  background-color: red;
+  height: 300px;
+  border: solid 1px black;
+}
+
+.blocco-tre-colonne::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+  height: 300px;
+  background-color: darkgrey;
+}
