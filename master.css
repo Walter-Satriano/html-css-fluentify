@@ -81,7 +81,7 @@ section{
   height: 150px;
 }
 
-h3{
+.efficacia{
   position: absolute;
   top: 40%;
   left: 50%;
@@ -105,16 +105,42 @@ h3{
   float: left;
   width: calc(100%/3);
   background-color: white;
-  height: 300px;
-  border: solid 1px black;
+  height: 560px;
+
 }
 
-.position{
-  position: absolute;
+.position-img{
+  position: relative;
   width: 80%;
   height: auto;
   left: calc((100%/3)/2);
+  margin-bottom: 15%;
 }
+
+.img-title{
+  font-size: 25px;
+  font-family: verdana;
+  color: #7FB802;
+  text-align: center;
+}
+
+.testocolonna{
+  font-size: 16px;
+  font-family: verdana;
+  text-align: center;
+  line-height: 2;
+
+}
+
+.lineacolonna{
+  width: 10%;
+  margin-left: 45%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: solid gray 1px;
+  background-color: gray;
+}
+
 
 .blocco-tre-colonne::after{
   content: "";
